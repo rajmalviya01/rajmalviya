@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    background-image: url("5570834.jpg");
+    background-size: cover}
+.nav_bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("profile-pic.png");
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    margin-right: 75px;
+}
+
+.nav-options a{
+    margin-left: 50px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+.nav-options a{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav-options a:hover{
+    color: #f04e3c;
+}
+.nav_bar button{
+    background-color: #f04e3c;
+    height:65px;
+    width: 240px;
+    margin-right: 50px;
+    
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome{
+    background-image: url("welcome.png");
+    position: relative;
+    top: -100px;
+    height: 800px;
+    background-size: cover;
+    z-index: -1;
+}
+/*----------------------------About section and heading-------------------------------------------------*/
+.about{
+    height: 400px;
+    color: white;
+    background-color: rgb(2, 2, 26);
+    width: 100%;
+    position: relative;
+    top: -100px;
+    border-top: 0.5px solid white;
+    text-align: center;
+}
+
+.about h1{
+    margin-top: 10px;
+    color: white;
+}
+/*-------------------------------contentboxes----------------------------------------------*/
+.content{
+    display: flex;
+    margin-top: 40px;
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+.content h2{
+    width: 200px;
+    margin-left: 25px;
+}
+
+.content p{
+    text-align: justify;
+    margin-left: 50px;
+    width: 70%;
+}
+
+.introduction{
+    height: 100px;
+    width: 200px;
+    margin-left: 25px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content:hover{
+    background-color: #f04e3c;
+}
+
+/*--------------------------------Footer section------------------------------------------------*/
+
+.reminder{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    border-top:0.5px solid white ;
+    border-bottom: 0.5px solid white;
+}
+
+.reminder p{
+    font-family: cursive ;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.request0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.request{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    background-color: #e73522;
+    width: 95%;
+}
+
+.reminder a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: large;
+    background-color: #e73522;
+    color: white;
+    transition-property:all;
+    transition-duration:0.5s;
+    transition-timing-function: ease-in;
+}
+
+.request a:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+
+.thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.thankyou p{
+    font-size: 100px;
+    padding-bottom: 70px;
+    color: white;
+}
